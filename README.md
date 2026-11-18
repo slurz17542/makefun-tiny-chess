@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/tiny-chess-01/slurz17542/makefun-tiny-chess/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![reward](https://make.fun/badge/tiny-chess-01/slurz17542/makefun-tiny-chess/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-A 4 KB chess engine in Python: negamax alpha-beta with iterative deepening, quiescence search, a transposition table, killer moves, a history heuristic, null-move pruning and tapered piece-square tables. It plays the make.fun tiny-chess-01 gauntlet through the competition env, searching a fixed node budget per move so its games are fully deterministic and replayable.
+A tiny chess engine in 4 KB of Python: 0x88 board, negamax alpha-beta with iterative deepening to a fixed 80,000-node budget, transposition table, killer moves, history heuristic, null-move pruning, quiescence search and tapered piece-square tables. Deterministic: no clock, no unseeded randomness.
 
 ## Run it
 
